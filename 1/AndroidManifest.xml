@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.rovio.angrybirdsspace.ads">
+    <permission android:name="com.rovio.angrybirdsspace.ads.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.rovio.angrybirdsspace.ads.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.REGISTRATION"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="false" android:xlargeScreens="true"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:debuggable="false" android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:resizeableActivity="false">
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:launchMode="singleTask" android:name="com.rovio.fusion.App" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.airview.enable" android:value="true"/>
+            <intent-filter>
+                <action android:name="com.sec.android.airview.HOVER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="com.rovio.angrybirdsspace.ads"/>
+                <data android:scheme="com.rovio.angrybirdsspace.ads-2.2.14"/>
+                <data android:scheme="angrybirds-space"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="buildNumber" android:value="1534508674"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.ads.AudienceNetworkActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.vungle.publisher.VideoFullScreenAdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.vungle.publisher.MraidFullScreenAdActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.vungle.publisher.FlexViewAdActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.adcolony.sdk.AdColonyInterstitialActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.adcolony.sdk.AdColonyAdViewActivity"/>
+        <receiver android:exported="true" android:name="com.rovio.rcs.InstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/app_id"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:name="com.rovio.fusion.FusionGCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.rovio.angrybirdsspace.ads"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.rovio.fusion.LocalNotificationsWrapper"/>
+        <service android:name="com.rovio.fusion.GCMIntentService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.rovio.fusion.VideoPlayerActivity" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:name="com.unity3d.ads.adunit.AdUnitActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:name="com.unity3d.ads.adunit.AdUnitTransparentActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="false" android:name="com.unity3d.ads.adunit.AdUnitTransparentSoftwareActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="false" android:name="com.unity3d.ads.adunit.AdUnitSoftwareActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.0.2"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    </application>
+</manifest>

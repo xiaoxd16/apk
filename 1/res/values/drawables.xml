@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="allViews_Color_Black">#ff000000</item>
+    <item type="drawable" name="allViews_Color_DarkGrey">#ffa9a9a9</item>
+    <item type="drawable" name="allViews_Color_Red">#ffbe1e2d</item>
+    <item type="drawable" name="allViews_Color_White">#ffffffff</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+</resources>

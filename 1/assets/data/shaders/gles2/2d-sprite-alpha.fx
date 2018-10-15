@@ -1,0 +1,6 @@
+#define DISABLE_DEPTH_TEST
+#define ENABLE_PREMULT_ALPHA_BLENDING
+#define ENABLE_ALPHA_FACTOR
+#define ENABLE_TWOSIDED
+
+#include "pp.fx"

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="All_HelpViews_Image_Height">136.0dip</dimen>
+    <dimen name="All_HelpViews_Image_Width">220.0dip</dimen>
+    <dimen name="All_helpViews_helpText_marginBottom">25.0dip</dimen>
+    <dimen name="All_helpViews_helpText_marginTop">15.0dip</dimen>
+    <dimen name="All_helpViews_helpText_width">285.0dip</dimen>
+    <dimen name="All_helpViews_marginTop">67.0dip</dimen>
+    <dimen name="No_network_connection_layout_Width">300.0dip</dimen>
+    <dimen name="No_network_connection_margin_width_for_images">20.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">72.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">56.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">0.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">0.0dip</dimen>
+    <dimen name="abc_action_bar_elevation_material">4.0dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_overflow_padding_end_material">10.0dip</dimen>
+    <dimen name="abc_action_bar_overflow_padding_start_material">6.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">40.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin_material">5.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin_material">-3.0dip</dimen>
+    <dimen name="abc_action_button_min_height_material">48.0dip</dimen>
+    <dimen name="abc_action_button_min_width_material">48.0dip</dimen>
+    <dimen name="abc_action_button_min_width_overflow_material">36.0dip</dimen>
+    <dimen name="abc_alert_dialog_button_bar_height">48.0dip</dimen>
+    <item type="dimen" name="abc_button_inset_horizontal_material">@dimen/abc_control_inset_material</item>
+    <dimen name="abc_button_inset_vertical_material">6.0dip</dimen>
+    <dimen name="abc_button_padding_horizontal_material">8.0dip</dimen>
+    <item type="dimen" name="abc_button_padding_vertical_material">@dimen/abc_control_padding_material</item>
+    <dimen name="abc_cascading_menus_min_smallest_width">720.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">320.0dip</dimen>
+    <dimen name="abc_control_corner_material">2.0dip</dimen>
+    <dimen name="abc_control_inset_material">4.0dip</dimen>
+    <dimen name="abc_control_padding_material">4.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">79.99999%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">100.0%</item>
+    <dimen name="abc_dialog_fixed_width_major">320.0dip</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">320.0dip</dimen>
+    <dimen name="abc_dialog_list_padding_bottom_no_buttons">8.0dip</dimen>
+    <dimen name="abc_dialog_list_padding_top_no_title">8.0dip</dimen>
+    <item type="dimen" name="abc_dialog_min_width_major">65.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">95.00001%</item>
+    <dimen name="abc_dialog_padding_material">24.0dip</dimen>
+    <dimen name="abc_dialog_padding_top_material">18.0dip</dimen>
+    <dimen name="abc_dialog_title_divider_material">8.0dip</dimen>
+    <item type="dimen" name="abc_disabled_alpha_material_dark">0.3</item>
+    <item type="dimen" name="abc_disabled_alpha_material_light">0.26</item>
+    <dimen name="abc_dropdownitem_icon_width">32.0dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8.0dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8.0dip</dimen>
+    <dimen name="abc_edit_text_inset_bottom_material">7.0dip</dimen>
+    <dimen name="abc_edit_text_inset_horizontal_material">4.0dip</dimen>
+    <dimen name="abc_edit_text_inset_top_material">10.0dip</dimen>
+    <dimen name="abc_floating_window_z">16.0dip</dimen>
+    <item type="dimen" name="abc_list_item_padding_horizontal_material">@dimen/abc_action_bar_content_inset_material</item>
+    <dimen name="abc_panel_menu_list_width">296.0dip</dimen>
+    <dimen name="abc_progress_bar_height_material">4.0dip</dimen>
+    <dimen name="abc_search_view_preferred_height">48.0dip</dimen>
+    <dimen name="abc_search_view_preferred_width">320.0dip</dimen>
+    <dimen name="abc_seekbar_track_background_height_material">2.0dip</dimen>
+    <dimen name="abc_seekbar_track_progress_height_material">2.0dip</dimen>
+    <dimen name="abc_select_dialog_padding_start_material">20.0dip</dimen>
+    <dimen name="abc_switch_padding">3.0dip</dimen>
+    <dimen name="abc_text_size_body_1_material">14.0sp</dimen>
+    <dimen name="abc_text_size_body_2_material">14.0sp</dimen>
+    <dimen name="abc_text_size_button_material">14.0sp</dimen>
+    <dimen name="abc_text_size_caption_material">12.0sp</dimen>
+    <dimen name="abc_text_size_display_1_material">34.0sp</dimen>
+    <dimen name="abc_text_size_display_2_material">45.0sp</dimen>
+    <dimen name="abc_text_size_display_3_material">56.0sp</dimen>
+    <dimen name="abc_text_size_display_4_material">112.0sp</dimen>
+    <dimen name="abc_text_size_headline_material">24.0sp</dimen>
+    <dimen name="abc_text_size_large_material">22.0sp</dimen>
+    <dimen name="abc_text_size_medium_material">18.0sp</dimen>
+    <dimen name="abc_text_size_menu_header_material">14.0sp</dimen>
+    <dimen name="abc_text_size_menu_material">16.0sp</dimen>
+    <dimen name="abc_text_size_small_material">14.0sp</dimen>
+    <dimen name="abc_text_size_subhead_material">16.0sp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material">20.0sp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="allViews_ButtonTextSize">18.0sp</dimen>
+    <dimen name="allViews_TextSizeBiggestSize">28.0sp</dimen>
+    <dimen name="allViews_TextSizeMedium">21.0sp</dimen>
+    <dimen name="allViews_TextSizeRegular">13.0sp</dimen>
+    <dimen name="allViews_bottomRightButton_MarginBottom">11.0dip</dimen>
+    <dimen name="allViews_bottomRightButton_MarginRight">3.0dip</dimen>
+    <dimen name="allViews_button_Height">36.0dip</dimen>
+    <dimen name="allViews_button_Width">196.0dip</dimen>
+    <dimen name="allViews_cornerButton_Height">34.0dip</dimen>
+    <dimen name="allViews_cornerButton_Width">34.0dip</dimen>
+    <dimen name="allViews_editText_Height">37.0dip</dimen>
+    <dimen name="allViews_editText_Width">250.0dip</dimen>
+    <dimen name="allViews_email_password_hint_padding">9.0dip</dimen>
+    <dimen name="allViews_email_password_popup_text_left_padding">3.0dip</dimen>
+    <dimen name="allViews_emailpaswordTextSize">11.0sp</dimen>
+    <dimen name="allViews_exclaim_button_HeightWidth">37.0dip</dimen>
+    <dimen name="allViews_exclaim_button_padding">2.0dip</dimen>
+    <dimen name="allViews_rovioLogo_Height">50.0dip</dimen>
+    <dimen name="allViews_rovioLogo_Width">175.0dip</dimen>
+    <dimen name="allViews_topLeftButton_MarginLeft">5.0dip</dimen>
+    <dimen name="allViews_topLeftButton_MarginTop">13.0dip</dimen>
+    <dimen name="allViews_topRightButton_MarginRight">3.0dip</dimen>
+    <dimen name="allViews_topRightButton_MarginTop">13.0dip</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4.0dip</dimen>
+    <dimen name="compat_button_inset_vertical_material">6.0dip</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8.0dip</dimen>
+    <dimen name="compat_button_padding_vertical_material">4.0dip</dimen>
+    <dimen name="compat_control_corner_material">2.0dip</dimen>
+    <dimen name="connecting_to_network_view_Globe_height">120.0dip</dimen>
+    <dimen name="connecting_to_network_view_Globe_width">110.0dip</dimen>
+    <dimen name="connecting_to_network_view_Phone_height">100.0dip</dimen>
+    <dimen name="connecting_to_network_view_Phone_width">70.0dip</dimen>
+    <dimen name="connecting_to_network_view_connectingDots_height">100.0dip</dimen>
+    <dimen name="connecting_to_network_view_connectingDots_width">150.0dip</dimen>
+    <item type="dimen" name="disabled_alpha_material_dark">0.3</item>
+    <item type="dimen" name="disabled_alpha_material_light">0.26</item>
+    <dimen name="font_size_Title">18.0dip</dimen>
+    <dimen name="forgotPasswordView_Text_margin_Left_Right">10.0dip</dimen>
+    <dimen name="forgotPasswordView_emailEditText_marginLeft">30.0dip</dimen>
+    <dimen name="forgotPasswordView_emailEditText_marginRight">30.0dip</dimen>
+    <dimen name="forgotPasswordView_emailEditText_marginTop">15.0dip</dimen>
+    <dimen name="forgotPasswordView_exclaimImageView_marginTop">4.0dip</dimen>
+    <dimen name="forgotPasswordView_marginTop">60.0dip</dimen>
+    <dimen name="forgotPasswordView_sendRequestButton_marginLeft">65.0dip</dimen>
+    <dimen name="forgotPasswordView_sendRequestButton_marginRight">65.0dip</dimen>
+    <dimen name="forgotPasswordView_sendRequestButton_marginTop">25.0dip</dimen>
+    <dimen name="forgotPasswordView_textView_marginTop">20.0dip</dimen>
+    <item type="dimen" name="highlight_alpha_material_colored">0.26</item>
+    <item type="dimen" name="highlight_alpha_material_dark">0.2</item>
+    <item type="dimen" name="highlight_alpha_material_light">0.12</item>
+    <item type="dimen" name="hint_alpha_material_dark">0.5</item>
+    <item type="dimen" name="hint_alpha_material_light">0.38</item>
+    <item type="dimen" name="hint_pressed_alpha_material_dark">0.7</item>
+    <item type="dimen" name="hint_pressed_alpha_material_light">0.54</item>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20.0dip</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800.0dip</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120.0dip</dimen>
+    <dimen name="layoutMainView_height">300.0dip</dimen>
+    <dimen name="layoutMainView_width">400.0dip</dimen>
+    <dimen name="loginView_FrogotYourPasswordTextView_marginTop">5.0dip</dimen>
+    <dimen name="loginView_SignInButton_marginBottom">42.0dip</dimen>
+    <dimen name="loginView_SignInButton_marginTop">10.0dip</dimen>
+    <dimen name="loginView_emailEditText_marginTop">80.0dip</dimen>
+    <dimen name="loginView_marginLeft">75.0dip</dimen>
+    <dimen name="loginView_marginRight">75.0dip</dimen>
+    <dimen name="loginView_passwordEditText_marginTop">8.0dip</dimen>
+    <dimen name="loginView_registetrnowTextView_marginBottom">18.0dip</dimen>
+    <dimen name="loginView_registetrnowTextView_marginTop">7.0dip</dimen>
+    <dimen name="loginView_signInButton_marginLeft">102.0dip</dimen>
+    <dimen name="loginView_signInButton_marginRight">102.0dip</dimen>
+    <dimen name="notification_action_icon_size">32.0dip</dimen>
+    <dimen name="notification_action_text_size">13.0sp</dimen>
+    <dimen name="notification_big_circle_margin">12.0dip</dimen>
+    <dimen name="notification_content_margin_start">8.0dip</dimen>
+    <dimen name="notification_large_icon_height">64.0dip</dimen>
+    <dimen name="notification_large_icon_width">64.0dip</dimen>
+    <dimen name="notification_main_column_padding_top">10.0dip</dimen>
+    <item type="dimen" name="notification_media_narrow_margin">@dimen/notification_content_margin_start</item>
+    <dimen name="notification_right_icon_size">16.0dip</dimen>
+    <dimen name="notification_right_side_padding_top">4.0dip</dimen>
+    <dimen name="notification_small_icon_background_padding">3.0dip</dimen>
+    <dimen name="notification_small_icon_size_as_large">24.0dip</dimen>
+    <dimen name="notification_subtext_size">13.0sp</dimen>
+    <dimen name="notification_top_pad">10.0dip</dimen>
+    <dimen name="notification_top_pad_large_text">5.0dip</dimen>
+    <dimen name="passwordResetSuccessView_textView_marginTop">20.0dip</dimen>
+    <dimen name="radioButton_genderTextMarginLeft">4.0dip</dimen>
+    <dimen name="radioButton_heightWidth">20.0dip</dimen>
+    <dimen name="registerAccountFailureView_textView_marginTop">20.0dip</dimen>
+    <dimen name="registerAccountView1_continueButton_marginLeft">90.0dip</dimen>
+    <dimen name="registerAccountView1_continueButton_marginRight">90.0dip</dimen>
+    <dimen name="registerAccountView1_continueButton_marginTop">15.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_Height">30.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_marginLeft">75.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_marginRight">75.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_marginTop">5.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_width">80.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Spinner_Width">25.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Spinner_marginRight">15.0dip</dimen>
+    <dimen name="registerAccountView1_dateofbirthText_marginLeft">84.0dip</dimen>
+    <dimen name="registerAccountView1_dateofbirthText_marginTop">20.0dip</dimen>
+    <dimen name="registerAccountView1_spinner_padding">5.0dip</dimen>
+    <dimen name="registerAccountView1_spinner_textSize">12.0sp</dimen>
+    <dimen name="registerAccountView1_textView_marginTop">10.0dip</dimen>
+    <dimen name="registerAccountView2_emailEditText_marginTop">15.0dip</dimen>
+    <dimen name="registerAccountView2_genderRadioGroup_marginTop">3.0dip</dimen>
+    <dimen name="registerAccountView2_marginLeft">90.0dip</dimen>
+    <dimen name="registerAccountView2_marginRight">90.0dip</dimen>
+    <dimen name="registerAccountView2_marginTop">63.0dip</dimen>
+    <dimen name="registerAccountView2_passwordEditText_marginTop">8.0dip</dimen>
+    <dimen name="registerAccountView2_registerButton_marginLeft">15.0dip</dimen>
+    <dimen name="registerAccountView2_registerButton_marginRight">15.0dip</dimen>
+    <dimen name="registerAccountView2_registerButton_marginTop">3.0dip</dimen>
+    <dimen name="registerAccountView_Button_marginBottom">15.0dip</dimen>
+    <dimen name="registerAccountView_TextSizeBig">35.0dip</dimen>
+    <dimen name="registerAccountView_TextSizeMedium">17.0dip</dimen>
+    <dimen name="registerAccountView_registerText_marginTop">64.0dip</dimen>
+    <dimen name="register_account_successview_textview_width">250.0dip</dimen>
+    <dimen name="rovioLogo_marginTop">8.0dip</dimen>
+    <dimen name="rovio_account_not_verified_view_header_width">300.0dip</dimen>
+    <dimen name="rovio_account_not_verified_view_textView_1_marginTop">63.0dip</dimen>
+    <dimen name="rovio_account_not_verified_view_textView_2_marginTop">10.0dip</dimen>
+    <dimen name="rovio_account_success_view_textview_width">400.0dip</dimen>
+    <dimen name="rovio_passrequest_success_view_textview_width">250.0dip</dimen>
+    <dimen name="rovio_signin_registerAccountSuccessView_textView_1_marginTop">63.0dip</dimen>
+    <dimen name="rovio_signin_registerAccountSuccessView_textView_2_marginTop">15.0dip</dimen>
+    <dimen name="tooltip_corner_radius">2.0dip</dimen>
+    <dimen name="tooltip_horizontal_padding">16.0dip</dimen>
+    <dimen name="tooltip_margin">8.0dip</dimen>
+    <dimen name="tooltip_precise_anchor_extra_offset">8.0dip</dimen>
+    <dimen name="tooltip_precise_anchor_threshold">96.0dip</dimen>
+    <dimen name="tooltip_vertical_padding">6.5dip</dimen>
+    <dimen name="tooltip_y_offset_non_touch">0.0dip</dimen>
+    <dimen name="tooltip_y_offset_touch">16.0dip</dimen>
+</resources>

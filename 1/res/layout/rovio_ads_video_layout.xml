@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageButton n1:id="@id/goto_btn_id" n1:tag="goto_btn" n1:background="@null" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="7.0dip" n1:src="@drawable/rovio_ads_goto_btn_selector" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ImageButton n2:id="@id/skip_btn_id" n2:tag="skip_btn" n2:background="@null" n2:paddingTop="14.0dip" n2:paddingRight="14.0dip" n2:visibility="invisible" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:src="@drawable/rovio_ads_skip_btn_selector" n2:layout_alignParentTop="true" n2:layout_alignParentRight="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <TextView n3:textSize="18.0dip" n3:gravity="center" n3:tag="skip_timer" n3:background="@drawable/rovio_ads_skip_empty" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="14.0dip" n3:layout_alignLeft="@id/skip_btn_id"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <LinearLayout n4:gravity="center_vertical" n4:orientation="horizontal" n4:tag="progress_toolbar" n4:visibility="invisible" n4:layout_width="fill_parent" n4:layout_height="wrap_content" n4:layout_marginBottom="22.0dip" n4:layout_toLeftOf="@id/goto_btn_id" n4:layout_alignParentLeft="true" n4:layout_alignParentBottom="true"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <TextView n4:textSize="18.0dip" n4:gravity="center" n4:tag="progress_timer" n4:background="@drawable/rovio_ads_progressbar_timer_bg" n4:layout_width="wrap_content" n4:layout_height="wrap_content" n4:layout_marginLeft="20.0dip" n4:layout_marginRight="20.0dip" />
+        <ProgressBar n4:tag="progress_bar" n4:layout_width="fill_parent" n4:layout_height="wrap_content" n4:layout_marginRight="12.0dip" n4:maxHeight="9.0dip" n4:max="100" n4:indeterminate="false" n4:progressDrawable="@drawable/rovio_ads_video_ads_progress_bar" n4:minHeight="9.0dip" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </LinearLayout>
+</merge>

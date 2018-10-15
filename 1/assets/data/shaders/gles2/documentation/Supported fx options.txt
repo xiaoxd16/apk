@@ -1,0 +1,105 @@
+This documentation contains features supported by OpenGL ES 2.0 .fx file.
+
+Usage examples:
+priority = -1;
+CullFace = FRONT_AND_BACK;
+
+------------------------------------------------------------------------------
+
+Controls the rendering priority of material.
+
+<priority>
+INTEGER NUMBER (Default: 0)
+
+------------------------------------------------------------------------------
+
+If FALSE, both sides of geometry are drawn.
+If TRUE, value from "CullFace" is used for culling.
+
+<EnableCulling>
+TRUE (Default)
+FALSE
+
+------------------------------------------------------------------------------
+
+If "EnableCulling" is TRUE, this value is used to cull geometry.
+
+<CullFace>
+FRONT
+BACK (Default)
+FRONT_AND_BACK
+
+------------------------------------------------------------------------------
+
+If depth test is disabled, depth buffer is not tested before drawing, so
+objects appear in drawing order, not correctly blocking each others.
+
+<EnableDepthTest>
+TRUE (Default)
+FALSE
+
+------------------------------------------------------------------------------
+
+If depth mask is disabled, geometry is not written to depth buffer.
+
+<EnableDepthMask>
+TRUE (Default)
+FALSE
+
+------------------------------------------------------------------------------
+
+Controls how depth buffer test is done.
+
+<DepthFunc>
+NEVER
+ALWAYS
+LESS (Default)
+LEQUAL
+EQUAL
+GREATER
+GEQUAL
+NOTEQUAL
+
+------------------------------------------------------------------------------
+
+Blending enables pixel to be blend to existing pixel instead of replacing it.
+
+<EnableBlending>
+TRUE
+FALSE (Default)
+
+------------------------------------------------------------------------------
+
+<BlendEquation>
+FUNC_ADD (Default)
+FUNC_SUBTRACT
+FUNC_REVERSE_SUBTRACT
+
+------------------------------------------------------------------------------
+
+Controls how source pixel is blended if blending is enabled.
+
+<BlendFuncSrc>
+ZERO
+ONE (Default)
+DST_COLOR
+ONE_MINUS_DST_COLOR
+SRC_ALPHA_SATURATE
+SRC_ALPHA
+ONE_MINUS_SRC_ALPHA
+DST_ALPHA
+ONE_MINUS_DST_ALPHA
+
+------------------------------------------------------------------------------
+
+Controls how destination pixel is blended if blending is enabled.
+
+<BlendFuncDst>
+ZERO (Default)
+ONE
+SRC_COLOR
+ONE_MINUS_SRC_COLOR
+SRC_ALPHA
+ONE_MINUS_SRC_ALPHA
+DST_ALPHA
+ONE_MINUS_DST_ALPHA

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="All_HelpViews_Image_Height">170.0dip</dimen>
+    <dimen name="All_HelpViews_Image_Width">300.0dip</dimen>
+    <dimen name="All_helpViews_helpText_marginBottom">15.0dip</dimen>
+    <dimen name="All_helpViews_helpText_width">400.0dip</dimen>
+    <dimen name="All_helpViews_marginTop">110.0dip</dimen>
+    <dimen name="No_network_connection_layout_Width">400.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="allViews_ButtonTextSize">28.0sp</dimen>
+    <dimen name="allViews_TextSizeBiggestSize">50.0sp</dimen>
+    <dimen name="allViews_TextSizeMedium">30.0sp</dimen>
+    <dimen name="allViews_TextSizeRegular">18.0sp</dimen>
+    <dimen name="allViews_bottomRightButton_MarginBottom">17.0dip</dimen>
+    <dimen name="allViews_button_Height">54.0dip</dimen>
+    <dimen name="allViews_button_Width">302.0dip</dimen>
+    <dimen name="allViews_cornerButton_Height">54.0dip</dimen>
+    <dimen name="allViews_cornerButton_Width">54.0dip</dimen>
+    <dimen name="allViews_editText_Height">55.0dip</dimen>
+    <dimen name="allViews_editText_Width">350.0dip</dimen>
+    <dimen name="allViews_emailpaswordTextSize">18.0sp</dimen>
+    <dimen name="allViews_exclaim_button_HeightWidth">55.0dip</dimen>
+    <dimen name="allViews_exclaim_button_padding">5.0dip</dimen>
+    <dimen name="allViews_rovioLogo_Height">75.0dip</dimen>
+    <dimen name="allViews_rovioLogo_Width">260.0dip</dimen>
+    <dimen name="allViews_topLeftButton_MarginTop">19.0dip</dimen>
+    <dimen name="allViews_topRightButton_MarginTop">19.0dip</dimen>
+    <dimen name="connecting_to_network_view_connectingDots_height">120.0dip</dimen>
+    <dimen name="connecting_to_network_view_connectingDots_width">200.0dip</dimen>
+    <dimen name="font_size_Title">24.0dip</dimen>
+    <dimen name="forgotPasswordView_emailEditText_marginLeft">112.0dip</dimen>
+    <dimen name="forgotPasswordView_emailEditText_marginRight">112.0dip</dimen>
+    <dimen name="forgotPasswordView_emailEditText_marginTop">20.0dip</dimen>
+    <dimen name="forgotPasswordView_marginTop">172.0dip</dimen>
+    <dimen name="forgotPasswordView_sendRequestButton_marginLeft">132.0dip</dimen>
+    <dimen name="forgotPasswordView_sendRequestButton_marginRight">132.0dip</dimen>
+    <dimen name="forgotPasswordView_sendRequestButton_marginTop">30.0dip</dimen>
+    <dimen name="layoutMainView_height">483.0dip</dimen>
+    <dimen name="layoutMainView_width">644.0dip</dimen>
+    <dimen name="loginView_FrogotYourPasswordTextView_marginTop">8.0dip</dimen>
+    <dimen name="loginView_SignInButton_marginBottom">55.0dip</dimen>
+    <dimen name="loginView_SignInButton_marginTop">38.0dip</dimen>
+    <dimen name="loginView_emailEditText_marginTop">140.0dip</dimen>
+    <dimen name="loginView_marginLeft">112.0dip</dimen>
+    <dimen name="loginView_marginRight">112.0dip</dimen>
+    <dimen name="loginView_passwordEditText_marginTop">16.0dip</dimen>
+    <dimen name="loginView_registetrnowTextView_marginBottom">25.0dip</dimen>
+    <dimen name="loginView_registetrnowTextView_marginTop">10.0dip</dimen>
+    <dimen name="loginView_signInButton_marginLeft">20.0dip</dimen>
+    <dimen name="loginView_signInButton_marginRight">20.0dip</dimen>
+    <dimen name="radioButton_heightWidth">35.0dip</dimen>
+    <dimen name="registerAccountView1_continueButton_marginLeft">164.0dip</dimen>
+    <dimen name="registerAccountView1_continueButton_marginRight">164.0dip</dimen>
+    <dimen name="registerAccountView1_continueButton_marginTop">64.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_Height">40.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_marginLeft">120.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_marginRight">120.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_marginTop">20.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Combos_width">110.0dip</dimen>
+    <dimen name="registerAccountView1_dateOfBirth_Spinner_Width">70.0dip</dimen>
+    <dimen name="registerAccountView1_dateofbirthText_marginLeft">140.0dip</dimen>
+    <dimen name="registerAccountView1_dateofbirthText_marginTop">23.0dip</dimen>
+    <dimen name="registerAccountView1_spinner_padding">8.0dip</dimen>
+    <dimen name="registerAccountView1_spinner_textSize">10.0sp</dimen>
+    <dimen name="registerAccountView1_textView_marginTop">15.0dip</dimen>
+    <dimen name="registerAccountView2_genderRadioGroup_marginTop">26.0dip</dimen>
+    <dimen name="registerAccountView2_marginLeft">121.0dip</dimen>
+    <dimen name="registerAccountView2_marginRight">121.0dip</dimen>
+    <dimen name="registerAccountView2_passwordEditText_marginTop">16.0dip</dimen>
+    <dimen name="registerAccountView2_registerButton_marginTop">40.0dip</dimen>
+    <dimen name="registerAccountView_Button_marginBottom">25.0dip</dimen>
+    <dimen name="registerAccountView_registerText_marginTop">100.0dip</dimen>
+    <dimen name="register_account_successview_textview_width">400.0dip</dimen>
+    <dimen name="rovioLogo_marginTop">10.0dip</dimen>
+    <dimen name="rovio_account_not_verified_view_header_width">400.0dip</dimen>
+    <dimen name="rovio_account_not_verified_view_textView_1_marginTop">100.0dip</dimen>
+    <dimen name="rovio_passrequest_success_view_textview_width">400.0dip</dimen>
+    <dimen name="rovio_signin_registerAccountSuccessView_textView_1_marginTop">154.0dip</dimen>
+    <dimen name="allViews_TextSizeBig">49.0sp</dimen>
+    <dimen name="genderRadioGroup_Height">45.0dip</dimen>
+    <dimen name="genderRadioGroup_Width">250.0dip</dimen>
+</resources>

@@ -1,0 +1,38 @@
+-----------------------------------------
+| Naming conventions for shaders files. |
+-----------------------------------------
+
+[s]-(unlit/diff)-(plain/tex)-[lightmap]-[normalmap]-[specmap]-[glossmap]-[alphatest/alpha]-[twosided]-[add/mul]-[nofog].fx
+
+() = Mandatory. Choose one.
+[] = Optional. Choose none or one.
+
+-------------------------
+| Feature descriptions. |
+-------------------------
+
+<s> : Skinned mesh for bone animations.
+
+<unlit> : No lighting.
+<diff> : Blinn-Phong shading with one point light source.
+
+<plain> : Plain color filled geometry.
+<tex> : Single color texture.
+
+<lightmap> : Lightmapping using second UV channel.
+
+<normalmap> : Diff with normal mapping.
+
+<specmap> : Texture is used for specular value instead of constant value.
+
+<glossmap> : Texture is used for glossiness value instead of constant value.
+
+<alphatest> : Colormap alpha channel is used for alpha testing.
+<alpha> : Colormap alpha channel is used for alpha blending.
+
+<twosided> : Geometry can be seen from both sides.
+
+<add> : Geometry is drawn additively.
+<mul> : Geometry is drawn multiplicatively.
+
+<nofog> : Fog does not affect to this material.
